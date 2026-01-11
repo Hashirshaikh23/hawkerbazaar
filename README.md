@@ -1,4 +1,4 @@
-# SheMarket - Bombay's Favorite Markets Online
+# HawkerBazaar - Bombay's Favorite Markets Online
 
 A marketplace platform connecting local women-led shops from Bombay's iconic markets (Hill Road, Colaba Causeway, Linking Road) with customers online.
 
