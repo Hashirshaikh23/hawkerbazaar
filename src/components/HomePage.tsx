@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from './ui/button';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import { ArrowRight, Sparkles, Heart, ShoppingBag, TrendingUp, MapPin, Shirt, Gem, Watch, Home, Footprints, Package } from 'lucide-react';
+import { ArrowRight, Sparkles, Heart, ShoppingBag, TrendingUp, MapPin, Shirt, Gem, Home, Footprints, Package } from 'lucide-react';
 import { products, categories } from '../lib/mockData';
 
 export function HomePage() {

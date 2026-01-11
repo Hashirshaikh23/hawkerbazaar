@@ -32,7 +32,6 @@ interface VendorDashboardProps {
 
 export function VendorDashboard({ user }: VendorDashboardProps) {
   const [showAddProduct, setShowAddProduct] = useState(false);
-  const [editingProduct, setEditingProduct] = useState<string | null>(null);
 
   if (!user || user.role !== 'vendor') {
     return (
