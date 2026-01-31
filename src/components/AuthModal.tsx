@@ -70,7 +70,7 @@ export function AuthModal({ onClose, onSuccess }: AuthModalProps) {
             <UserIcon className="w-8 h-8 text-white" />
           </div>
           <h2 className="text-stone-900 mb-2 font-semibold">
-            {step === 'phone' ? 'Welcome to SheMarket' : 'Verify OTP'}
+            {step === 'phone' ? 'Welcome to HawkerBazaar' : 'Verify OTP'}
           </h2>
           <p className="text-stone-600 text-sm">
             {step === 'phone'
@@ -160,7 +160,7 @@ export function AuthModal({ onClose, onSuccess }: AuthModalProps) {
         )}
 
         <p className="text-stone-500 text-xs text-center mt-6 leading-relaxed">
-          By continuing, you agree to SheMarket's Terms of Service and Privacy Policy
+          By continuing, you agree to HawkerBazaar's Terms of Service and Privacy Policy
         </p>
       </div>
     </div>

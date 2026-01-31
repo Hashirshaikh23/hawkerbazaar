@@ -184,7 +184,7 @@ export function HomePage() {
         <div className="bg-gradient-to-br from-stone-800 via-stone-900 to-stone-950 rounded-3xl p-12 text-center text-white gradient-grain relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(255,255,255,0.1),transparent_50%)]"></div>
           <div className="relative z-10 max-w-2xl mx-auto">
-            <h2 className="text-white mb-4">Own a Shop? Join SheMarket!</h2>
+            <h2 className="text-white mb-4">Own a Shop? Join HawkerBazaar!</h2>
             <p className="text-stone-300 mb-8 text-lg leading-relaxed">
               Expand your reach beyond foot traffic. List your products and connect with customers
               across Mumbai.

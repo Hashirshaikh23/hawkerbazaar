@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Label } from './ui/label';
@@ -31,6 +32,7 @@ interface VendorDashboardProps {
 }
 
 export function VendorDashboard({ user }: VendorDashboardProps) {
+  const navigate = useNavigate();
   const [showAddProduct, setShowAddProduct] = useState(false);
 
   if (!user || user.role !== 'vendor') {
@@ -41,7 +43,7 @@ export function VendorDashboard({ user }: VendorDashboardProps) {
           <p className="text-gray-600 mb-6">
             This page is only accessible to registered vendors.
           </p>
-          <Button onClick={() => window.location.href = '/vendor/onboard'}>
+          <Button onClick={() => navigate('/vendor/onboard')}>
             Become a Vendor
           </Button>
         </div>

@@ -1,6 +1,6 @@
-# SheMarket - Local Setup Guide
+# HawkerBazaar - Local Setup Guide
 
-Follow these steps to download and run the SheMarket project on your local machine.
+Follow these steps to download and run the HawkerBazaar project on your local machine.
 
 ---
 
@@ -11,7 +11,7 @@ You need to manually download all the project files from Figma Make. Here's the 
 ### Create this folder structure:
 
 ```
-shemarket/
+hawkerbazaar/
 ├── public/
 ├── src/
 │   ├── components/
@@ -78,7 +78,7 @@ shemarket/
 
 ## Step 2: Install Node.js
 
-If you don't have Node.js installed:
+If you don't have Node.js installed: 
 
 1. Go to https://nodejs.org/
 2. Download the LTS (Long Term Support) version
@@ -98,7 +98,7 @@ If you don't have Node.js installed:
 1. Open terminal/command prompt
 2. Navigate to your project folder:
    ```bash
-   cd path/to/shemarket
+   cd path/to/hawkerbazaar
    ```
 
 3. Install dependencies:
@@ -141,7 +141,7 @@ You should see output like:
 
 1. Open your web browser
 2. Go to: `http://localhost:5173`
-3. The SheMarket application should now be running!
+3. The hawkerbazaar application should now be running!
 
 ---
 

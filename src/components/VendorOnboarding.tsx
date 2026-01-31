@@ -59,7 +59,7 @@ export function VendorOnboarding() {
           </div>
           <h1 className="text-stone-900 mb-4">Become a Vendor</h1>
           <p className="text-stone-600 leading-relaxed max-w-xl mx-auto">
-            Join SheMarket and expand your business beyond foot traffic. Reach customers across Mumbai!
+            Join HawkerBazaar and expand your business beyond foot traffic. Reach customers across Mumbai!
           </p>
         </div>
 
